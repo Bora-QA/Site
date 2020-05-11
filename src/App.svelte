@@ -30,7 +30,11 @@
         <a class="nav-link" href="#quem-somos">Quem somos</a>
       </li>
       <li class="nav-item active font-weight-bold">
-        <a class="nav-link" href="#">Código de Conduta</a>
+        <a
+          class="nav-link"
+          href="https://github.com/Bora-QA/Sobre/blob/master/CODE_OF_CONDUCT.md">
+          Código de Conduta
+        </a>
       </li>
     </ul>
   </div>
@@ -40,8 +44,12 @@
   <h1>Bora QA</h1>
   <h4>Compartilhando conhecimento e andando juntos</h4>
   <div class="socials">
-    <a href="#" class="fa fa-github" aria-label="Ir para o Github" />
-    <a href="#" class="fa fa-youtube" aria-label="Ir para o canal no Youtube" />
+    <a href="http://github.com/bora-QA" aria-label="Ir para o Github">
+      <i class="fa fa-github" />
+    </a>
+    <a href="https://www.youtube.com/" aria-label="Ir para o canal no Youtube">
+      <i class="fa fa-youtube" />
+    </a>
   </div>
 </header>
 

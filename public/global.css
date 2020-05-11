@@ -50,13 +50,16 @@ nav img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  text-decoration: none;
   border-radius: 50%;
   border: 2px solid white;
   background-color: transparent;
   color: white;
   margin-right: 15px;
   transition: 0.2s all;
+}
+
+.socials a:hover {
+  text-decoration: none;
 }
 
 .socials .fa:hover {
