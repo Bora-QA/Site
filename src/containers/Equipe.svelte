@@ -1,4 +1,6 @@
 <script>
+  import Grid from "svelte-grid-responsive";
+  import Social from "../components/Social.svelte";
   import integrantes from "../data/integrantes.json";
 </script>
 
@@ -30,43 +32,23 @@
 <section class="context context-invert" id="equipe">
   <h2>Equipe</h2>
   <div class="container">
-    <div class="row">
+    <Grid container gutter={12}>
       {#each integrantes as integrante}
-        <div class="col-xs-12 col-md-3">
+        <Grid xs={12} md={6} lg={3}>
           <div class="root">
             <img src={integrante.imagem} alt={integrante.nome} />
             <h5>{integrante.nome}</h5>
             <h6>{integrante.cargo}</h6>
             <div class="socials">
-              {#if integrante.github}
-                <a href={integrante.github} aria-label="Ir para o Github">
-                  <i class="fa fa-github" />
-                </a>
-              {/if}
-              {#if integrante.twitter}
-                <a href={integrante.twitter} aria-label="Ir para o Twitter">
-                  <i class="fa fa-twitter" />
-                </a>
-              {/if}
-              {#if integrante.facebook}
-                <a href={integrante.facebook} aria-label="Ir para o Facebook">
-                  <i class="fa fa-facebook" />
-                </a>
-              {/if}
-              {#if integrante.linkedin}
-                <a href={integrante.linkedin} aria-label="Ir para o Linkedin">
-                  <i class="fa fa-linkedin" />
-                </a>
-              {/if}
-              {#if integrante.website}
-                <a href={integrante.website} aria-label="Ir para Site Pessoal">
-                  <i class="fa fa-link" />
-                </a>
-              {/if}
+              <Social name="github" link={integrante.github} />
+              <Social name="twitter" link={integrante.twitter} />
+              <Social name="facebook" link={integrante.facebook} />
+              <Social name="linkedin" link={integrante.linkedin} />
+              <Social name="link" link={integrante.website} />
             </div>
           </div>
-        </div>
+        </Grid>
       {/each}
-    </div>
+    </Grid>
   </div>
 </section>

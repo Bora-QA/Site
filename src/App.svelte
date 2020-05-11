@@ -1,4 +1,6 @@
 <script>
+  import Social from "./components/Social.svelte";
+
   import CursosContainer from "./containers/Cursos.svelte";
   import EquipeContainer from "./containers/Equipe.svelte";
   import SobreContainer from "./containers/Sobre.svelte";
@@ -87,12 +89,8 @@
   <h1>Bora QA</h1>
   <h4>Compartilhando conhecimento e andando juntos</h4>
   <div class="socials">
-    <a href="http://github.com/bora-QA" aria-label="Ir para o Github">
-      <i class="fa fa-github" />
-    </a>
-    <a href="https://www.youtube.com/" aria-label="Ir para o canal no Youtube">
-      <i class="fa fa-youtube" />
-    </a>
+    <Social name="github" link="http://github.com/bora-QA" />
+    <Social name="twitter" link="https://www.youtube.com/" />
   </div>
 </header>
 

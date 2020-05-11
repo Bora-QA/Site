@@ -468,6 +468,11 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
+svelte-grid-responsive@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/svelte-grid-responsive/-/svelte-grid-responsive-0.3.0.tgz#1d74b2a87e30daeff11d6dfcdab98233240b6212"
+  integrity sha512-CRS3uDvib1XyUYMJMpHC6Pst/AH7HC+YrsXSJf03oslv2TD7cFoFB2Q2KZfifQUrmhWzURwJwJKXOoZY5gjs9g==
+
 svelte@^3.0.0:
   version "3.22.2"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.22.2.tgz#06585244191bf7a112af2a0025610f33d77c3715"

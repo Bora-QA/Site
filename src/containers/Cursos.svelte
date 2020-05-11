@@ -1,13 +1,14 @@
 <script>
+  import Grid from "svelte-grid-responsive";
   import cursos from "../data/cursos.json";
 </script>
 
 <div class="container">
   <section class="context" id="cursos">
     <h2>Cursos</h2>
-    <div class="row">
+    <Grid container gutter={12}>
       {#each cursos as curso}
-        <div class="col-xs-12 col-md-4 curso">
+        <Grid xs={12} md={6} lg={4}>
           <div class="card">
             <iframe
               title="Playlist do curso 'Como pensar em qualidade?'"
@@ -29,8 +30,8 @@
               {/if}
             </div>
           </div>
-        </div>
+        </Grid>
       {/each}
-    </div>
+    </Grid>
   </section>
 </div>
