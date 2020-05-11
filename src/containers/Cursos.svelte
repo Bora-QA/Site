@@ -1,5 +1,5 @@
 <script>
-  let cursos = [1, 2, 3];
+  import cursos from "../data/cursos.json";
 </script>
 
 <div class="container">
@@ -14,21 +14,19 @@
               type="text/html"
               width="100%"
               height="250"
-              src="https://www.youtube.com/embed/lcKo-ycLDNw?list=PLx4x_zx8csUj3IbPQ4_X5jis_SkCol3eC"
+              src={curso.embedYoutube}
               frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope;
               picture-in-picture"
               allowfullscreen />
             <div class="card-body">
-              <h5 class="card-title">Como pensar em qualidade?</h5>
-              <p class="card-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s.
-              </p>
-              <a href="https://github.com/" class="btn btn-primary">
-                Acessar o github
-              </a>
+              <h5 class="card-title">{curso.titulo}</h5>
+              <p class="card-text">{curso.descricao}</p>
+              {#if curso.github}
+                <a href={curso.github} class="btn btn-primary">
+                  Acessar o github
+                </a>
+              {/if}
             </div>
           </div>
         </div>

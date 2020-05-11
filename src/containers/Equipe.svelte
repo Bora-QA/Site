@@ -1,5 +1,5 @@
 <script>
-  let integrantes = [1, 2, 3, 4];
+  import integrantes from "../data/integrantes.json";
 </script>
 
 <style>
@@ -34,23 +34,35 @@
       {#each integrantes as integrante}
         <div class="col-xs-12 col-md-3">
           <div class="root">
-            <img src="./assets/user.png" alt="Rosto do Integrante sorrindo" />
-            <h5>Integrante</h5>
-            <h6>QA</h6>
+            <img src={integrante.imagem} alt={integrante.nome} />
+            <h5>{integrante.nome}</h5>
+            <h6>{integrante.cargo}</h6>
             <div class="socials">
-              <a
-                href="https://www.facebook.com/"
-                aria-label="Ir para o Facebook">
-                <i class="fa fa-facebook" />
-              </a>
-              <a
-                href="https://twitter.com/andrelmlins"
-                aria-label="Ir para o Twitter">
-                <i class="fa fa-twitter" />
-              </a>
-              <a href="http://github.com/" aria-label="Ir para o Github">
-                <i class="fa fa-github" />
-              </a>
+              {#if integrante.github}
+                <a href={integrante.github} aria-label="Ir para o Github">
+                  <i class="fa fa-github" />
+                </a>
+              {/if}
+              {#if integrante.twitter}
+                <a href={integrante.twitter} aria-label="Ir para o Twitter">
+                  <i class="fa fa-twitter" />
+                </a>
+              {/if}
+              {#if integrante.facebook}
+                <a href={integrante.facebook} aria-label="Ir para o Facebook">
+                  <i class="fa fa-facebook" />
+                </a>
+              {/if}
+              {#if integrante.linkedin}
+                <a href={integrante.linkedin} aria-label="Ir para o Linkedin">
+                  <i class="fa fa-linkedin" />
+                </a>
+              {/if}
+              {#if integrante.website}
+                <a href={integrante.website} aria-label="Ir para Site Pessoal">
+                  <i class="fa fa-link" />
+                </a>
+              {/if}
             </div>
           </div>
         </div>
