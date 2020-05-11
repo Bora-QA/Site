@@ -4,8 +4,51 @@
   import SobreContainer from "./containers/Sobre.svelte";
 </script>
 
+<style>
+  header {
+    background-color: #675cf3;
+    min-height: 400px;
+    padding: 50px 0px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    background: radial-gradient(#675cf3 20%, #4537f0);
+  }
+
+  header img {
+    width: 200px;
+    height: auto;
+  }
+
+  header h1 {
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 80px;
+  }
+
+  header h4 {
+    margin-bottom: 40px;
+  }
+
+  nav {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+      0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  nav img {
+    height: 40px;
+  }
+
+  footer {
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 -2px 2px 0 rgba(0, 0, 0, 0.14),
+      0 -3px 1px -2px rgba(0, 0, 0, 0.12), 0 -1px 5px 0 rgba(0, 0, 0, 0.2);
+  }
+</style>
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-  <a class="navbar-brand" href="#">
+  <a class="navbar-brand" href="/">
     <img src="./assets/logo-header.png" alt="Bora QA" />
   </a>
   <button
