@@ -1,34 +1,30 @@
 [
   {
-    "nome": "Integrante",
+    "nome": "Paulo Gonçalves",
     "cargo": "QA",
-    "imagem": "https://lh3.googleusercontent.com/proxy/s3Gy8IH0uTTzP-lRR0AMw818lfb8xiW57n4gmOyznpy2xi-NKmehZ9hA8jPiVc38fXlv6MrugBAOH8v8ZS-5i33C5lQgqtcsnZ86ajDfpWE4F9pk2BUsLAZEzD6HsVtt1_m4h9CsLUDETwxVJTTWfNajBGFf",
-    "github": "https://github.com/",
-    "facebook": "http://facebook.com/",
-    "twitter": "http://twitter.com/",
-    "instagram": "http://instagram.com/",
-    "site": "http://google.com/"
+    "imagem": "https://avatars3.githubusercontent.com/u/29241659?s=460&u=7e6402b629b624bf1d448d03da9a30313f17d75a&v=4",
+    "github": "https://github.com/PauloGoncalvesBH/",
+    "twitter": "https://twitter.com/paulorgoncalves"
   },
   {
     "nome": "Integrante",
     "cargo": "QA",
-    "imagem": "https://lh3.googleusercontent.com/proxy/s3Gy8IH0uTTzP-lRR0AMw818lfb8xiW57n4gmOyznpy2xi-NKmehZ9hA8jPiVc38fXlv6MrugBAOH8v8ZS-5i33C5lQgqtcsnZ86ajDfpWE4F9pk2BUsLAZEzD6HsVtt1_m4h9CsLUDETwxVJTTWfNajBGFf",
+    "imagem": "https://raw.githubusercontent.com/Bora-QA/Site/bcde415514c91e1e8a67c20fa6333d2ac963d490/assets/user.png",
     "facebook": "http://facebook.com/",
-    "twitter": "http://twitter.com/",
-    "site": "http://google.com/"
+    "website": "http://google.com/"
   },
   {
     "nome": "Integrante",
     "cargo": "QA",
-    "imagem": "https://lh3.googleusercontent.com/proxy/s3Gy8IH0uTTzP-lRR0AMw818lfb8xiW57n4gmOyznpy2xi-NKmehZ9hA8jPiVc38fXlv6MrugBAOH8v8ZS-5i33C5lQgqtcsnZ86ajDfpWE4F9pk2BUsLAZEzD6HsVtt1_m4h9CsLUDETwxVJTTWfNajBGFf",
+    "imagem": "https://raw.githubusercontent.com/Bora-QA/Site/bcde415514c91e1e8a67c20fa6333d2ac963d490/assets/user.png",
     "github": "https://github.com/",
     "twitter": "http://twitter.com/",
-    "site": "http://google.com/"
+    "website": "https://google.com/"
   },
   {
     "nome": "Integrante",
     "cargo": "QA",
-    "imagem": "https://lh3.googleusercontent.com/proxy/s3Gy8IH0uTTzP-lRR0AMw818lfb8xiW57n4gmOyznpy2xi-NKmehZ9hA8jPiVc38fXlv6MrugBAOH8v8ZS-5i33C5lQgqtcsnZ86ajDfpWE4F9pk2BUsLAZEzD6HsVtt1_m4h9CsLUDETwxVJTTWfNajBGFf",
+    "imagem": "https://raw.githubusercontent.com/Bora-QA/Site/bcde415514c91e1e8a67c20fa6333d2ac963d490/assets/user.png",
     "github": "https://github.com/",
     "linkedin": "https://linkedin.com/",
     "website": "https://google.com/"

@@ -25,7 +25,7 @@
               <p class="card-text">{curso.descricao}</p>
               {#if curso.github}
                 <a href={curso.github} class="btn btn-primary">
-                  Acessar o github
+                  Acessar o GitHub
                 </a>
               {/if}
             </div>

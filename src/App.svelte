@@ -89,8 +89,8 @@
   <h1>Bora QA</h1>
   <h4>Compartilhando conhecimento e andando juntos</h4>
   <div class="socials">
-    <Social name="github" link="http://github.com/bora-QA" />
-    <Social name="twitter" link="https://www.youtube.com/" />
+    <Social name="github" link="https://github.com/Bora-QA/Sobre" />
+    <Social name="youtube" link="https://www.youtube.com/channel/UC3LbaeH6nmbi4nhXrwLimVA" />
   </div>
 </header>
 
