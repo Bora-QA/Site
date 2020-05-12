@@ -77,7 +77,9 @@
       <li class="nav-item active font-weight-bold">
         <a
           class="nav-link"
-          href="https://github.com/Bora-QA/Sobre/blob/master/CODE_OF_CONDUCT.md">
+          href="https://github.com/Bora-QA/Sobre/blob/master/CODE_OF_CONDUCT.md"
+          target="_blank"
+          rel="noopener">
           Código de Conduta
         </a>
       </li>
