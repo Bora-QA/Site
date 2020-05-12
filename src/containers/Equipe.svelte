@@ -1,5 +1,6 @@
 <script>
   import Grid from "svelte-grid-responsive";
+  import knuthShuffle from "knuth-shuffle";
   import Social from "../components/Social.svelte";
   import integrantes from "../data/integrantes.json";
 </script>
@@ -33,7 +34,7 @@
   <h2>Equipe</h2>
   <div class="container">
     <Grid container gutter={12}>
-      {#each integrantes as integrante}
+      {#each knuthShuffle.knuthShuffle(integrantes) as integrante}
         <Grid xs={12} md={6} lg={3}>
           <div class="root">
             <img src={integrante.imagem} alt={integrante.nome} />

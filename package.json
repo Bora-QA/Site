@@ -17,6 +17,7 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
+    "knuth-shuffle": "^1.0.8",
     "sirv-cli": "^0.4.4",
     "svelte-grid-responsive": "^0.3.0"
   }
