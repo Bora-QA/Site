@@ -11,7 +11,7 @@
         <Grid xs={12} md={6} lg={4}>
           <div class="card">
             <iframe
-              title="Playlist do curso 'Como pensar em qualidade?'"
+              title={`Playlist do curso '${curso.titulo}'`}
               type="text/html"
               width="100%"
               height="250"
