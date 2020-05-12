@@ -40,7 +40,7 @@
 </style>
 
 {#if link}
-  <a href={link} aria-label={`Ir para ${name}`} target="_blank">
+  <a href={link} aria-label={`Ir para ${name}`} target="_blank" rel="noopener">
     <i class={`fa fa-${name}`} />
   </a>
 {/if}
